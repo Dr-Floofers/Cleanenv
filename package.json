@@ -27,6 +27,7 @@
   "files": [
     "dist",
     "LICENSE",
-    "resources"
+    "resources/logo.svg",
+    "resources/logo-light.svg"
   ]
 }
