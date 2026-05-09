@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Read(//c/Users/mylos/AppData/Local/Temp/cleanenv-test2/**)",
-      "Bash(npx cleanenv-v1 *)"
-    ]
-  }
-}

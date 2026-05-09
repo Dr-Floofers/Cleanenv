@@ -3,5 +3,4 @@ dist
 .env
 .env.local
 .env.production
-.claude
 resources/how-to-make-logo.png
