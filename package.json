@@ -17,7 +17,7 @@
     "typescript": "^6.0.3"
   },
   "bin": {
-    "cleanenv": "dist/index.js"
+    "cleanenv-v1": "./dist/index.js"
   },
   "scripts": {
     "dev": "tsx src/index.ts",
