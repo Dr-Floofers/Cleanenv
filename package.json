@@ -21,6 +21,7 @@
   },
   "scripts": {
     "dev": "tsx src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "postbuild": "node -e \"const fs=require('fs');const f='dist/index.js';fs.writeFileSync(f,'#!/usr/bin/env node\\n'+fs.readFileSync(f,'utf8'))\""
   }
 }
