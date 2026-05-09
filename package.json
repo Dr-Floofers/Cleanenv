@@ -1,10 +1,10 @@
 {
   "name": "cleanenv",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.9.2",
+  "description": "Audit and fix your .env files",
   "main": "index.js",
-  "keywords": [],
-  "author": "",
+  "keywords": ["env", "dotenv", "cli", "devtools", "environment", "audit"],
+  "author": "Dr. Floofers",
   "license": "MIT",
   "type": "module",
   "dependencies": {
@@ -17,11 +17,15 @@
     "typescript": "^6.0.3"
   },
   "bin": {
-    "cleanenv": "./dist/index.js"
+    "cleanenv": "dist/index.js"
   },
   "scripts": {
     "dev": "tsx src/index.ts",
     "build": "tsc",
     "postbuild": "node -e \"const fs=require('fs');const f='dist/index.js';fs.writeFileSync(f,'#!/usr/bin/env node\\n'+fs.readFileSync(f,'utf8'))\""
-  }
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ]
 }
