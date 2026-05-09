@@ -15,7 +15,7 @@
 ## Usage
 
 ```bash
-npx cleanenv
+npx cleanenv-v1
 ```
 No install needed. Just run it from your project root.
 

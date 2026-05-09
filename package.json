@@ -1,5 +1,5 @@
 {
-  "name": "@dr-floofers/cleanenv",
+  "name": "cleanenv-v1",
   "version": "0.9.2",
   "description": "Audit and fix your .env files",
   "main": "index.js",
