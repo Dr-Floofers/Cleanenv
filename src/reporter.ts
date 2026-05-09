@@ -1,5 +1,5 @@
 import chalk from "chalk"
-import { AuditResult } from "./audit"
+import { AuditResult } from "./audit.js"
 
 export function report(result: AuditResult, envFile: string, exampleFile: string, fallback: boolean) {
   const header = chalk.blueBright(envFile) + chalk.dim(" vs ") + chalk.dim(exampleFile)

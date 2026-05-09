@@ -1,6 +1,6 @@
 import * as fs from "fs"
-import { AuditResult } from "./audit"
-import { parseEnvFile } from "./parser"
+import { AuditResult } from "./audit.js"
+import { parseEnvFile } from "./parser.js"
 
 export interface FixResult {
   added: { key: string; value: string }[]

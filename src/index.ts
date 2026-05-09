@@ -1,10 +1,10 @@
 import chalk from "chalk"
 import * as path from "path"
 import * as readline from "readline"
-import { audit, AuditResult } from "./audit"
-import { report, summary } from "./reporter"
-import { discoverPairs } from "./discovery"
-import { fix } from "./fixer"
+import { audit, AuditResult } from "./audit.js"
+import { report, summary } from "./reporter.js"
+import { discoverPairs } from "./discovery.js"
+import { fix } from "./fixer.js"
 
 interface PairAudit {
   envPath: string

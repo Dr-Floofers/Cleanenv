@@ -1,4 +1,4 @@
-import { parseEnvFile } from "./parser"
+import { parseEnvFile } from "./parser.js"
 
 export interface AuditResult {
   ok: string[]
