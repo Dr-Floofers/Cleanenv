@@ -1,6 +1,12 @@
 <p align="center">
   <br>
-  <a href="https://github.com/Dr-Floofers/Cleanenv"><img src="./resources/logo.svg" alt="Cleanenv"></a>
+  <a href="https://github.com/Dr-Floofers/Cleanenv">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./resources/logo.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./resources/logo-light.svg">
+      <img src="./resources/logo.svg" alt="Cleanenv">
+    </picture>
+  </a>
   <br>
   <br>
   <span>Audit and fix your .env files in seconds</span>
